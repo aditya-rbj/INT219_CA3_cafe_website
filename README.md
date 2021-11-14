@@ -1,9 +1,9 @@
 # INT231CA3_cafe_website
 
-main HTML page is index.html
+1. main HTML page is index.html
 
-We need to run/open index.html page
+2. We need to run/open index.html page
 
-CSS code is in style.css
+3. CSS code is in style.css
 
-JavaScript code is in script.js
+4. JavaScript code is in script.js
