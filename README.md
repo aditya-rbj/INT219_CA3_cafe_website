@@ -1,4 +1,4 @@
-# INT231CA3_cafe_website
+# INT219_CA3_cafe_website
 
 1. main HTML page is index.html
 
