@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>order page</title>
+    <style>
+        body{
+            background-image: url("images/order.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment:fixed;
+
+        }
+        h1{
+            text-align: center;
+            text-transform: capitalize;
+            text-shadow: violet;
+            animation: glow 2s ease-in-out infinite alternate;
+           
+           
+            margin-top: 185px;
+            font-size: 64px;
+        }
+        p{
+            text-align: center;
+            text-transform: capitalize;
+            text-shadow: violet;
+            font-size: 54px;
+            animation: glitch 1s linear infinite;
+           
+        }
+        @keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+        @keyframes glow {
+    from {
+      text-shadow: 0 0 20px #ac288f;
+    }
+    to {
+      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    }
+  }
+
+    </style>
+</head>
+<body>
+    <h1 style="color: rgb(49, 46, 40);">Your order has been placed sucessfully.</h1>
+    <br>
+    <p style="color: white;">We will deliver your order in 30 mins !!!</p>
+</body>
